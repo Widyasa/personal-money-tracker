@@ -26,6 +26,7 @@ import {
   PiggyBankIcon,
   LogOutIcon,
   WalletIcon,
+  BookOpenIcon,
 } from "lucide-react";
 
 const mainNav = [
@@ -39,6 +40,7 @@ const manageNav = [
   { title: "Categories", url: "/categories", icon: TagIcon },
   { title: "Debts", url: "/debts", icon: HandCoinsIcon },
   { title: "Savings", url: "/savings", icon: PiggyBankIcon },
+  { title: "Tutorial", url: "/tutorial", icon: BookOpenIcon },
 ];
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
